@@ -654,7 +654,9 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@cosmjs/utils", "workspace:packages/utils"],
             ["@types/bn.js", "npm:4.11.6"],
             ["@types/elliptic", "npm:6.4.12"],
+            ["@types/jasmine", "npm:3.6.10"],
             ["@types/libsodium-wrappers", "npm:0.7.7"],
+            ["@types/node", "npm:15.0.1"],
             ["@types/pbkdf2", "npm:3.1.0"],
             ["@types/ripemd160", "npm:2.0.0"],
             ["@types/sha.js", "npm:2.4.0"],
@@ -693,6 +695,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [
             ["@cosmjs/encoding", "workspace:packages/encoding"],
             ["@types/base64-js", "npm:1.3.0"],
+            ["@types/jasmine", "npm:3.6.10"],
+            ["@types/node", "npm:15.0.1"],
             ["base64-js", "npm:1.3.1"],
             ["bech32", "npm:1.1.4"],
             ["eslint", "npm:7.11.0"],
@@ -747,6 +751,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./packages/faucet-client/",
           "packageDependencies": [
             ["@cosmjs/faucet-client", "workspace:packages/faucet-client"],
+            ["@types/jasmine", "npm:3.6.10"],
+            ["@types/node", "npm:15.0.1"],
             ["axios", "npm:0.21.1"],
             ["eslint", "npm:7.11.0"],
             ["glob", "npm:7.1.6"],
@@ -863,6 +869,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [
             ["@cosmjs/math", "workspace:packages/math"],
             ["@types/bn.js", "npm:4.11.6"],
+            ["@types/jasmine", "npm:3.6.10"],
             ["bn.js", "npm:4.12.0"],
             ["eslint", "npm:7.11.0"],
             ["glob", "npm:7.1.6"],
@@ -917,6 +924,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [
             ["@cosmjs/socket", "workspace:packages/socket"],
             ["@cosmjs/stream", "workspace:packages/stream"],
+            ["@types/jasmine", "npm:3.6.10"],
             ["@types/ws", "npm:6.0.4"],
             ["eslint", "npm:7.11.0"],
             ["glob", "npm:7.1.6"],
@@ -979,6 +987,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./packages/stream/",
           "packageDependencies": [
             ["@cosmjs/stream", "workspace:packages/stream"],
+            ["@types/jasmine", "npm:3.6.10"],
+            ["@types/node", "npm:15.0.1"],
             ["eslint", "npm:7.11.0"],
             ["glob", "npm:7.1.6"],
             ["jasmine", "npm:3.5.0"],
@@ -1035,6 +1045,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./packages/utils/",
           "packageDependencies": [
             ["@cosmjs/utils", "workspace:packages/utils"],
+            ["@types/jasmine", "npm:3.6.10"],
+            ["@types/node", "npm:15.0.1"],
             ["eslint", "npm:7.11.0"],
             ["glob", "npm:7.1.6"],
             ["jasmine", "npm:3.5.0"],
@@ -1509,6 +1521,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD",
         }]
       ]],
+      ["@types/jasmine", [
+        ["npm:3.6.10", {
+          "packageLocation": "./.yarn/cache/@types-jasmine-npm-3.6.10-a7bcb83327-16f598aa0c.zip/node_modules/@types/jasmine/",
+          "packageDependencies": [
+            ["@types/jasmine", "npm:3.6.10"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
       ["@types/json-schema", [
         ["npm:7.0.7", {
           "packageLocation": "./.yarn/cache/@types-json-schema-npm-7.0.7-95fb8178d7-b9d2c509fa.zip/node_modules/@types/json-schema/",
@@ -1658,6 +1679,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/@types-node-npm-14.14.28-f643c75c74-e750df4d5e.zip/node_modules/@types/node/",
           "packageDependencies": [
             ["@types/node", "npm:14.14.28"]
+          ],
+          "linkType": "HARD",
+        }],
+        ["npm:15.0.1", {
+          "packageLocation": "./.yarn/cache/@types-node-npm-15.0.1-dcfad4a203-4e4fb69394.zip/node_modules/@types/node/",
+          "packageDependencies": [
+            ["@types/node", "npm:15.0.1"]
           ],
           "linkType": "HARD",
         }]

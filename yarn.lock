@@ -463,7 +463,9 @@ __metadata:
     "@cosmjs/utils": "workspace:packages/utils"
     "@types/bn.js": ^4.11.6
     "@types/elliptic": ^6.4.12
+    "@types/jasmine": ^3.6.10
     "@types/libsodium-wrappers": ^0.7.7
+    "@types/node": ^15.0.1
     "@types/pbkdf2": ^3.1.0
     "@types/ripemd160": ^2.0.0
     "@types/sha.js": ^2.4.0
@@ -500,6 +502,8 @@ __metadata:
   resolution: "@cosmjs/encoding@workspace:packages/encoding"
   dependencies:
     "@types/base64-js": ^1.2.5
+    "@types/jasmine": ^3.6.10
+    "@types/node": ^15.0.1
     base64-js: ^1.3.0
     bech32: ^1.1.4
     eslint: ^7.5
@@ -522,6 +526,8 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@cosmjs/faucet-client@workspace:packages/faucet-client"
   dependencies:
+    "@types/jasmine": ^3.6.10
+    "@types/node": ^15.0.1
     axios: ^0.21.1
     eslint: ^7.5
     glob: ^7.1.6
@@ -660,6 +666,7 @@ __metadata:
   resolution: "@cosmjs/math@workspace:packages/math"
   dependencies:
     "@types/bn.js": ^4.11.6
+    "@types/jasmine": ^3.6.10
     bn.js: ^4.11.8
     eslint: ^7.5
     glob: ^7.1.6
@@ -710,6 +717,7 @@ __metadata:
   resolution: "@cosmjs/socket@workspace:packages/socket"
   dependencies:
     "@cosmjs/stream": "workspace:packages/stream"
+    "@types/jasmine": ^3.6.10
     "@types/ws": ^6.0.1
     eslint: ^7.5
     glob: ^7.1.6
@@ -768,6 +776,8 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@cosmjs/stream@workspace:packages/stream"
   dependencies:
+    "@types/jasmine": ^3.6.10
+    "@types/node": ^15.0.1
     eslint: ^7.5
     glob: ^7.1.6
     jasmine: ^3.5
@@ -820,6 +830,8 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@cosmjs/utils@workspace:packages/utils"
   dependencies:
+    "@types/jasmine": ^3.6.10
+    "@types/node": ^15.0.1
     eslint: ^7.5
     glob: ^7.1.6
     jasmine: ^3.5
@@ -1228,6 +1240,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/jasmine@npm:^3.6.10":
+  version: 3.6.10
+  resolution: "@types/jasmine@npm:3.6.10"
+  checksum: 16f598aa0c2245a9ad4de16fc81e7f76d01f0d1412d6597e87380832772698717f1b68124e0bf628e75bdc4c037e6ab45caaf170da0125cafd2440748a54dc12
+  languageName: node
+  linkType: hard
+
 "@types/json-schema@npm:*, @types/json-schema@npm:^7.0.6":
   version: 7.0.7
   resolution: "@types/json-schema@npm:7.0.7"
@@ -1368,6 +1387,13 @@ __metadata:
   version: 14.14.28
   resolution: "@types/node@npm:14.14.28"
   checksum: e750df4d5e93c639d04100e7d54d9e416ecc649d4d7951ac1d5b82d092c556f6e7775a191995e06d6def65ae7bc25533d188fe122dc660724d119ce3ddae2cea
+  languageName: node
+  linkType: hard
+
+"@types/node@npm:^15.0.1":
+  version: 15.0.1
+  resolution: "@types/node@npm:15.0.1"
+  checksum: 4e4fb69394efb224272ad7c6b6dc16a381b97e46a8f3c21d33fec51ef13a4d635f571b446d127eae333ea6a763f304b787f4b3f73e24e1f3b05a21b481900dfb
   languageName: node
   linkType: hard
 
